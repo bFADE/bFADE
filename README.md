@@ -1,89 +1,48 @@
-# QR Code Generator with Rounded Corners
+# Hi, I'm Benjamim Frade 👋
 
-A Python script to generate beautifully styled QR codes with rounded corners and custom colors.
+Brazilian-born, Dallas-based. Studying Computer Information Science (AI concentration) at Dallas Baptist University and building software projects.
 
-## Features
+🌎 Bilingual: English / Português
+📍 Dallas–Fort Worth, TX
 
-- 🎨 Custom colors (deep blue QR on soft cream background)
-- ⭕ Rounded corners for a modern, polished look
-- 🔧 Configurable parameters (size, border, corner radius)
-- 📱 High error correction for better scanning reliability
-- 💻 Simple command-line interface
+---
 
-## Installation
+## About me
 
-1. Install Python dependencies:
-```bash
-pip install -r requirements.txt
-```
+- 🎓 B.Th. in Theology, Christ For The Nations Institute (2026)
+- 💻 Pursuing a B.S. in Computer Information Science at Dallas Baptist University (AI concentration applied for)
 
-## Usage
+---
 
-### Command Line
+## What I'm working on
 
-Generate a QR code from the command line:
+| Project | Description | Stack |
+|---|---|---|
+| **Mini-language interpreter** | Lexer, parser, and evaluator built from scratch | C++ |
+| **Atlas** | Local Trello-style task app with board, calendar, Pomodoro timer, and PT/EN support | JavaScript |
+| **Gym progress tracker** | Progressive web app for logging and charting workouts | PWA |
 
-```bash
-# Basic usage with URL
-python qr_generator.py "https://example.com"
+---
 
-# Custom output filename
-python qr_generator.py "Hello World" my_custom_qr.png
-```
+## Tech & tools
 
-### As a Python Module
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 
-```python
-from qr_generator import generate_rounded_qr
+**Also:** Claude Code
 
-# Generate QR code
-generate_rounded_qr(
-    qr_data="https://example.com",
-    output_filename="my_qr.png"
-)
+---
 
-# With custom settings
-generate_rounded_qr(
-    qr_data="Your text here",
-    output_filename="custom_qr.png",
-    qr_color="#162b96",
-    bg_color="#f6f2ea",
-    box_size=20,
-    border=4,
-    corner_radius=40
-)
-```
+## Let's connect
 
-## Customization
+I'm open to internships, collaborations, and conversations about software and AI.
 
-- **qr_color**: Color of the QR code modules (hex format, e.g., "#162b96")
-- **bg_color**: Background color (hex format, e.g., "#f6f2ea")
-- **box_size**: Size of each QR box in pixels (default: 20)
-- **border**: Border width in boxes (default: 4)
-- **corner_radius**: Corner roundness in pixels (default: 40)
+- GitHub: [@bFADE](https://github.com/bFADE)
 
-## Examples
+---
 
-```bash
-# Generate QR for a website
-python qr_generator.py "https://github.com"
-
-# Generate QR with contact info
-python qr_generator.py "mailto:hello@example.com"
-
-# Generate QR for WiFi
-python qr_generator.py "WIFI:T:WPA;S:NetworkName;P:Password;;"
-```
-
-## Output
-
-The script generates a PNG file with:
-- Transparent rounded corners (RGBA format)
-- High error correction (can still scan even if 30% damaged)
-- Professional appearance suitable for printing or digital use
-
-## Requirements
-
-- Python 3.7+
-- qrcode library with PIL support
-- Pillow (PIL fork)
+*Obrigado por passar por aqui! Thanks for stopping by.* 🚀
