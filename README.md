@@ -42,6 +42,7 @@ Brazilian-born, Dallas-based. Studying Computer Information Science (AI concentr
 I'm open to internships, collaborations, and conversations about software and AI.
 
 - GitHub: [@bFADE](https://github.com/bFADE)
+- Instagram: @benjamimfr
 
 ---
 
